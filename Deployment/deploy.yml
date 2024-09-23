@@ -27,4 +27,4 @@
         source: pull
 
     - name: Running container
-      shell: docker run -it -d --name Calculator shlokagrawal26/calculator
+      shell: docker run -it -d --name calculator shlokagrawal26/calculator
