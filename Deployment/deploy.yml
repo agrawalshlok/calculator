@@ -1,3 +1,20 @@
+#---
+#- name: Pull Docker Image of Calculator
+#  hosts: all
+#  vars:
+#    ansible_python_interpreter:
+#  tasks:
+#    - name: Pull image
+#      docker_image:
+#        name: shlokagrawal26/calculator:latest
+#        source: pull
+#    - name: Start docker service
+#      service:
+#        name: docker
+#        state: started
+#    - name: Running container
+#      shell: docker run -it -d --name calculator shlokagrawal26/calculator
+#
 ---
 - name: Pull Docker Image of Calculator
   hosts: all
@@ -6,8 +23,8 @@
   tasks:
     - name: Pull image
       docker_image:
-        name: pink27/calculator:latest
+        name: shlokagrawal26/calculator:latest
         source: pull
 
     - name: Running container
-      shell: docker run -it -d --name Calculator shlokagrawal26/calculato
+      shell: docker run -it -d --name Calculator shlokagrawal26/calculator
