@@ -106,6 +106,7 @@ public class Main {
     }
 
     // Method for Power calculation
+    // Test
     public static double power(double base, double exponent) {
         return Math.pow(base, exponent);
     }
