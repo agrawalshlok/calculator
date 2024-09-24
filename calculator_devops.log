@@ -1,0 +1,8 @@
+2024-09-24 12:21:53.552 [main] INFO  org.example.Main - Starting Calculator Application...
+2024-09-24 12:22:02.608 [main] INFO  org.example.Main - Performed Addition: 45.0 + 1.0 = 46.0
+2024-09-24 13:28:49.767 [main] INFO  org.example.Main - Calculating square root of: 8.0
+2024-09-24 13:28:53.785 [main] INFO  org.example.Main - Calculating factorial of: 5
+2024-09-24 13:28:57.714 [main] INFO  org.example.Main - Calculating factorial of: 100
+2024-09-24 13:29:10.415 [main] INFO  org.example.Main - Calculating natural logarithm of: 100.0
+2024-09-24 13:29:15.894 [main] INFO  org.example.Main - Calculating 4.0^2.0
+2024-09-24 13:29:18.598 [main] INFO  org.example.Main - Exiting the calculator.
