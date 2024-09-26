@@ -77,7 +77,7 @@ public class CalculatorTest {
     }
 
     @Test
-    public void testPower() {
+    public void testPower() { // test
         // Test with positive base and positive exponent
         double result = calculator.power(3, 3);
         Assert.assertEquals(27.0, result, 0.001);
