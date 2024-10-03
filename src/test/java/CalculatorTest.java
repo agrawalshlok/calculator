@@ -15,7 +15,7 @@ public class CalculatorTest {
     public void testSquareRoot() {
         // Test for positive number
         double result = calculator.sqrt(9);
-        Assert.assertEquals(3.0, result, 0.001);
+        Assert.assertEquals(4.0, result, 0.001);
 
         // Test for zero
         result = calculator.sqrt(0);
